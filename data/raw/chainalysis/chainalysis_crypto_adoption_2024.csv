@@ -1,0 +1,5 @@
+country_code,country,year,indicator,value,source,source_dataset
+GHA,Ghana,2024,crypto_adoption_rank,46,Chainalysis,2024 Global Crypto Adoption Index
+KEN,Kenya,2024,crypto_adoption_rank,28,Chainalysis,2024 Global Crypto Adoption Index
+NGA,Nigeria,2024,crypto_adoption_rank,2,Chainalysis,2024 Global Crypto Adoption Index
+ZAF,South Africa,2024,crypto_adoption_rank,30,Chainalysis,2024 Global Crypto Adoption Index

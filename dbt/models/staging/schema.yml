@@ -1,0 +1,240 @@
+version: 2
+
+models:
+
+  # ---------------------------------------------------------
+  # WORLD BANK
+  # ---------------------------------------------------------
+
+  - name: stg_world_bank
+    description: >
+      Staging model containing validated World Bank indicators
+      for Ghana, Kenya, Nigeria, and South Africa from 2015 to 2025.
+
+    columns:
+
+      - name: country_code
+        description: "ISO 3-letter country code."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - GHA
+                  - KEN
+                  - NGA
+                  - ZAF
+
+      - name: country
+        description: "Country name."
+        data_tests:
+          - not_null
+
+      - name: indicator_code
+        description: "World Bank indicator code."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - SP.POP.TOTL
+                  - NY.GDP.PCAP.CD
+                  - IT.NET.USER.ZS
+
+      - name: indicator_name
+        description: "Standardized indicator name."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - population
+                  - gdp_per_capita
+                  - internet_penetration
+
+      - name: year
+        description: "Observation year."
+        data_tests:
+          - not_null
+
+      - name: source
+        description: "Original data source."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - World Bank
+
+
+  # ---------------------------------------------------------
+  # GLOBAL FINDEX
+  # ---------------------------------------------------------
+
+  - name: stg_global_findex
+    description: >
+      Staging model containing Global Findex indicators
+      for Ghana, Kenya, Nigeria, and South Africa for 2024.
+
+    columns:
+
+      - name: country_code
+        description: "ISO 3-letter country code."
+        data_tests:
+          - not_null
+
+      - name: country
+        description: "Country name."
+        data_tests:
+          - not_null
+
+      - name: year
+        description: "Findex observation year."
+        data_tests:
+          - not_null
+
+      - name: series
+        description: "Original Global Findex series code."
+        data_tests:
+          - not_null
+
+      - name: indicator
+        description: "Standardized indicator name."
+        data_tests:
+          - not_null
+
+      - name: source
+        description: "Original data source."
+        data_tests:
+          - not_null
+
+
+  # ---------------------------------------------------------
+  # GOOGLE TRENDS
+  # ---------------------------------------------------------
+
+  - name: stg_google_trends
+    description: >
+      Staging model containing Google Trends crypto search-interest
+      data for the four target markets.
+
+    columns:
+
+      - name: country_code
+        description: "ISO 3-letter country code."
+        data_tests:
+          - not_null
+
+      - name: country
+        description: "Country name."
+        data_tests:
+          - not_null
+
+      - name: year
+        description: "Reference year."
+        data_tests:
+          - not_null
+
+      - name: indicator
+        description: "Crypto search-interest indicator."
+        data_tests:
+          - not_null
+
+      - name: value
+        description: "Google Trends relative search-interest index."
+        data_tests:
+          - not_null
+
+      - name: source
+        description: "Original data source."
+        data_tests:
+          - not_null
+
+
+  # ---------------------------------------------------------
+  # CHAINALYSIS
+  # ---------------------------------------------------------
+
+  - name: stg_chainalysis
+    description: >
+      Staging model containing Chainalysis Global Crypto Adoption
+      Index country ranks for the four target markets.
+
+    columns:
+
+      - name: country_code
+        description: "ISO 3-letter country code."
+        data_tests:
+          - not_null
+
+      - name: country
+        description: "Country name."
+        data_tests:
+          - not_null
+
+      - name: year
+        description: "Reference year."
+        data_tests:
+          - not_null
+
+      - name: indicator
+        description: "Crypto adoption indicator."
+        data_tests:
+          - not_null
+
+      - name: crypto_adoption_rank
+        description: "Raw Chainalysis adoption rank."
+        data_tests:
+          - not_null
+
+      - name: source
+        description: "Original data source."
+        data_tests:
+          - not_null
+
+      - name: source_dataset
+        description: "Source dataset name."
+        data_tests:
+          - not_null
+
+
+  # ---------------------------------------------------------
+  # WORLD BANK REMITTANCES
+  # ---------------------------------------------------------
+
+  - name: stg_world_bank_remittances
+    description: >
+      Staging model containing personal remittances received
+      as a percentage of GDP for the four target markets.
+
+    columns:
+
+      - name: country_code
+        description: "ISO 3-letter country code."
+        data_tests:
+          - not_null
+
+      - name: country
+        description: "Country name."
+        data_tests:
+          - not_null
+
+      - name: indicator_code
+        description: "World Bank remittances indicator code."
+        data_tests:
+          - not_null
+
+      - name: indicator_name
+        description: "Standardized remittances indicator name."
+        data_tests:
+          - not_null
+
+      - name: year
+        description: "Observation year."
+        data_tests:
+          - not_null
+
+      - name: source
+        description: "Original data source."
+        data_tests:
+          - not_null

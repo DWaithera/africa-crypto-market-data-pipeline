@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: google_trends
+    description: "Google Trends country-level crypto search interest used as a proxy for crypto demand."
+
+    schema: raw
+
+    tables:
+      - name: raw_google_trends
+        description: "Validated Google Trends crypto search-interest data for the four MEPS target markets."
+
+        columns:
+          - name: country_code
+            description: "ISO 3-letter country code."
+
+          - name: country
+            description: "Country name."
+
+          - name: year
+            description: "Reference year."
+
+          - name: indicator
+            description: "MEPS indicator name."
+
+          - name: value
+            description: "Google Trends relative search-interest index from 0 to 100."
+
+          - name: source
+            description: "Original data source."

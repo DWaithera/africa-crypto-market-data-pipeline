@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: world_bank_remittances
+    description: "Raw World Bank World Development Indicators data for personal remittances received as a percentage of GDP."
+
+    schema: raw
+
+    tables:
+      - name: raw_world_bank_remittances
+        description: "Validated annual personal remittance inflows as a percentage of GDP for Ghana, Kenya, Nigeria, and South Africa."
+
+        columns:
+          - name: country_code
+            description: "ISO 3-letter country code."
+
+          - name: country
+            description: "Country name."
+
+          - name: indicator_code
+            description: "World Bank indicator code: BX.TRF.PWKR.DT.GD.ZS."
+
+          - name: indicator_name
+            description: "MEPS indicator name: remittances_pct_gdp."
+
+          - name: year
+            description: "Observation year."
+
+          - name: value
+            description: "Personal remittances received expressed as a percentage of GDP."
+
+          - name: source
+            description: "Original data source."

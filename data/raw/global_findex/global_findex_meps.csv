@@ -1,0 +1,13 @@
+country_code,country,year,series,indicator,value,source
+GHA,Ghana,2024,account.t.d,account_ownership,0.812430252454858,World Bank Global Findex 2025
+KEN,Kenya,2024,account.t.d,account_ownership,0.901199173733613,World Bank Global Findex 2025
+NGA,Nigeria,2024,account.t.d,account_ownership,0.632613514491542,World Bank Global Findex 2025
+ZAF,South Africa,2024,account.t.d,account_ownership,0.811259662052011,World Bank Global Findex 2025
+GHA,Ghana,2024,g20.any,digital_payment_usage,0.803642716005985,World Bank Global Findex 2025
+KEN,Kenya,2024,g20.any,digital_payment_usage,0.892834970616173,World Bank Global Findex 2025
+NGA,Nigeria,2024,g20.any,digital_payment_usage,0.544771426679894,World Bank Global Findex 2025
+ZAF,South Africa,2024,g20.any,digital_payment_usage,0.671721775440991,World Bank Global Findex 2025
+GHA,Ghana,2024,con9a,smartphone_adoption,0.5352556614266,World Bank Global Findex 2025
+KEN,Kenya,2024,con9a,smartphone_adoption,0.549135249715155,World Bank Global Findex 2025
+NGA,Nigeria,2024,con9a,smartphone_adoption,0.336763762421281,World Bank Global Findex 2025
+ZAF,South Africa,2024,con9a,smartphone_adoption,0.675103796489982,World Bank Global Findex 2025

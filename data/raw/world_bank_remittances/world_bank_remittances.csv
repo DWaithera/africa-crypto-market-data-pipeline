@@ -1,0 +1,45 @@
+country_code,country,indicator_code,indicator_name,year,value,source
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,10.0784066400995,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,5.30764584386793,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,5.85639814832266,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,5.23431525252006,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,5.93056152121388,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,6.13064485540951,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,2.45987576586277,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,2.87894180185027,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,3.04707983231817,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,3.63485196347604,World Bank World Development Indicators
+GHA,Ghana,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,2.12143124533705,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,2.23796042279417,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,2.33193318571891,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,2.39195095634137,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,2.95041012979608,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,2.82749196207077,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,3.08763090265523,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,3.43661248510652,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,3.54717907214312,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,3.93262959527649,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,4.15276804487158,World Bank World Development Indicators
+KEN,Kenya,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,4.18355590955889,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,4.86790574219487,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,5.86487483704888,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,5.76446757768372,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,3.56309024895967,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,2.87469533137043,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,3.19846919167208,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,3.11115327876129,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,4.01108712398946,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,8.77134410191558,World Bank World Development Indicators
+NGA,Nigeria,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,7.83684309060138,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2015,0.238024279262203,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2016,0.233457316957649,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2017,0.229090018644241,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2018,0.229245847513525,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2019,0.228613058346216,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2020,0.239923790431449,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2021,0.220638358471984,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2022,0.214147215380552,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2023,0.210618728835036,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2024,0.213233288359423,World Bank World Development Indicators
+ZAF,South Africa,BX.TRF.PWKR.DT.GD.ZS,remittances_pct_gdp,2025,0.235201009549448,World Bank World Development Indicators

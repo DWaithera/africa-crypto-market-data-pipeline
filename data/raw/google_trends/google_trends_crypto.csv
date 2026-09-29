@@ -1,0 +1,5 @@
+country_code,country,year,indicator,value,source
+GHA,Ghana,2025,crypto_search_interest,31,Google Trends
+KEN,Kenya,2025,crypto_search_interest,31,Google Trends
+NGA,Nigeria,2025,crypto_search_interest,77,Google Trends
+ZAF,South Africa,2025,crypto_search_interest,24,Google Trends

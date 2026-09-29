@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: world_bank
+    description: "Raw World Bank data ingested through the MEPS Python pipeline."
+
+    schema: raw
+
+    tables:
+      - name: raw_world_bank_indicators
+        description: "Validated World Bank indicators for Ghana, Kenya, Nigeria, and South Africa from 2015 to 2025."
+
+        columns:
+          - name: country_code
+            description: "ISO 3-letter country code."
+
+          - name: country
+            description: "Country name."
+
+          - name: indicator_code
+            description: "World Bank indicator code."
+
+          - name: indicator_name
+            description: "MEPS-friendly indicator name."
+
+          - name: year
+            description: "Observation year."
+
+          - name: value
+            description: "Indicator value."
+
+          - name: source
+            description: "Original data source."
+
+          - name: extracted_at
+            description: "UTC timestamp when the data was extracted."

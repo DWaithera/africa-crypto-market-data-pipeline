@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: global_findex
+    description: "Raw Global Findex data ingested through the MEPS Python pipeline."
+
+    schema: raw
+
+    tables:
+      - name: raw_global_findex
+        description: "Validated Global Findex 2025 indicators for Ghana, Kenya, Nigeria, and South Africa for 2024."
+
+        columns:
+          - name: country_code
+            description: "ISO 3-letter country code."
+
+          - name: country
+            description: "Country name."
+
+          - name: year
+            description: "Findex observation year. Core MEPS extract uses 2024."
+
+          - name: series
+            description: "Original Global Findex series code."
+
+          - name: indicator
+            description: "MEPS-friendly indicator name."
+
+          - name: value
+            description: "Indicator value expressed as a proportion between 0 and 1."
+
+          - name: source
+            description: "Original data source."

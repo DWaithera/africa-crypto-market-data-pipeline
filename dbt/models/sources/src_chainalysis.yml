@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: chainalysis
+    description: >
+      Chainalysis Global Crypto Adoption Index data used as the
+      Crypto Activity indicator for the four MEPS target markets.
+
+    schema: raw
+
+    tables:
+      - name: raw_chainalysis_crypto_adoption
+
+        description: >
+          Raw Chainalysis 2024 Global Crypto Adoption Index country
+          ranks for Ghana, Kenya, Nigeria, and South Africa.
+          Lower rank indicates stronger crypto adoption/activity.
+
+        columns:
+          - name: country_code
+            description: ISO3 country code.
+
+          - name: country
+            description: Country name.
+
+          - name: year
+            description: Reference year of the Chainalysis dataset.
+
+          - name: indicator
+            description: MEPS indicator name.
+
+          - name: value
+            description: >
+              Raw Chainalysis global adoption rank.
+              This value is not normalized or transformed in the raw layer.
+
+          - name: source
+            description: Source organization.
+
+          - name: source_dataset
+            description: Source dataset name.
