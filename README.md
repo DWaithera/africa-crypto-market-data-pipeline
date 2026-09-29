@@ -32,9 +32,7 @@ Validated Data
      ↓
 Business Analysis
 
-
-
-## Data Sources
+## Data Sources 
 
 | Source | Data |
 |---|---|
@@ -57,8 +55,6 @@ It brings information from different sources into a consistent structure so that
 
 The focus is on getting the **data foundation right before using it for business analysis.**
 
-
-
 ## Data Sources
 
 | Source | Data |
@@ -67,8 +63,6 @@ The focus is on getting the **data foundation right before using it for business
 | Global Findex | Financial access, digital payments, smartphone adoption |
 | Google Trends | Crypto search interest |
 | Chainalysis | Crypto adoption |
-
-
 
 ## Pipeline
 
