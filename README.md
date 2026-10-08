@@ -10,7 +10,7 @@ Ghana, Kenya, Nigeria, and South Africa
 
 The data covers crypto adoption, crypto interest, financial access, digital payments, internet access, economic indicators, and remittances.
 
-##Business Problem
+## Business Problem
 
 Information about emerging markets is often spread across different sources, formats, and reporting periods.
 
